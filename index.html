@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Begin Computing | Arabella </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Montserrat", sans-serif marginwidth:'20' marginheight'20'}
+.mySlides {display: none}
+</style>
+</head>
+
+<body>
+<!-- Navbar -->
+<div class="top">
+  <div class="w3-bar w3-brown w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+    <a href="#overview" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OVERVIEW</a>
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More"> ACTIVITIES <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#conversion" class="w3-bar-item w3-button">Conversion</a>
+        <a href="#itcalc" class="w3-bar-item w3-button">Income Tax Calculator</a>
+        <a href="#fact" class="w3-bar-item w3-button">Factorial, Sum, & Average of First N Natural Numbers</a>
+        <a href="#payroll" class="w3-bar-item w3-button">Simple Payroll</a>
+      </div>
+    </div>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-white w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#overview" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">OVERVIEW</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"> OVERVIEW </a>
+</div>
+
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <div class='w3-brown' id="home">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center" font-family="Montserrat"> <b>BEGIN WITH ITC</b> </h2>
+  </div>
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center" data-wow-duration="2s">
+    <img src="https://pbs.twimg.com/media/FfgQnSaagAE-yC2?format=jpg&name=large" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Own Pace</h3>
+      <p><b>You can learn how to program whenever you like.</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://pbs.twimg.com/media/FfgRXXKaAAAtKwn?format=jpg&name=large" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Environment</h3>
+      <p><b>A good output is always produced with a good environment.</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://pbs.twimg.com/media/FfgR3gbaUAAsKNU?format=jpg&name=large" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Energizer</h3>
+      <p><b>One can never go wrong with Matcha when times go rough.</b></p>    
+    </div>
+  </div>
+
+  <!-- About Me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="aboutme">
+    <h2 class="w3-wide"> <b>ABOUT ME</b> </h2>
+    <p class="w3-opacity"><i>Arabella Grace M. Mejorada</i></p>
+    <p class="w3-justify"> I am Arabella Grace M. Mejorada, a first-year student taking up BS in Computer Science.
+      I have a lot of habits and layouting and coding are one of them. In this website, you get to see visuals and application
+      of everything that I have learned in our Introduction to Computing course.
+    </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <img src="https://pbs.twimg.com/media/FgoPYizakAAhsLv?format=png&name=small" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <img src="https://pbs.twimg.com/media/FgoPYiqaEAI_ZTO?format=png&name=small" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%">
+      </div>
+      <div class="w3-third">
+        <img src="https://pbs.twimg.com/media/FgoPYiraAAENZXT?format=png&name=small" class="w3-round" alt="Random Name" style="width:80%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Overview Section -->
+  <div class="w3-brown" id="overview">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"> <b>OVERVIEW</b> </h2>
+      <p class="w3-opacity w3-center"><i> These are the programs that you will be seeing in this website. </i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://pbs.twimg.com/media/Ffqhp85agAYrLgP?format=png&name=small" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b> Conversion </b></p>
+            <p class="w3-opacity">Javascript</p>
+            <p>Javascript program that will ask for input values and convert.</p>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://pbs.twimg.com/media/Ffqhp87aUAEOc-u?format=png&name=small" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b> Income Tax Calculator </b></p>
+            <p class="w3-opacity">Javascript</p>
+            <p>Input a Taxable Income and compute the income tax using a table.</p>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://pbs.twimg.com/media/Ffqhp9CaYAABUXQ?format=png&name=small" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>First N Natural Numbers</b></p>
+            <p class="w3-opacity">Javascript</p>
+            <p> Input an integer value n and displays specific value/s</p>
+          </div>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://pbs.twimg.com/media/Ffqhp85aYAIcrPd?format=png&name=small" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Simple Payroll</b></p>
+            <p class="w3-opacity">Javascript</p>
+            <p>Add and delete employees in a payroll list.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Conversion Page -->
+  <div class="w3-row-padding w3-white w3-padding-64 w3-container" id="conversion">
+  <div class="w3-content"> 
+    <div class="w3-third w3-left-align">
+      <i class="fa w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1> <b>CONVERSION<b> </h1>
+      <br>
+      <h3> Fahrenheit to Celsius </h3>
+      <h5 class="w3-text-brown">
+        <label>Fahrenheit</label>
+        <input id="inputFahrenheit" type="number" 
+        oninput="temperatureConvert1(this.value)"
+        onchange="temperatureConvert1(this.value)">
+      </h5>
+      <h5> <b>Celsius:</b> <span id="outputCelsiusResult"></span></h5>
+
+      <h3>&nbsp;</h3>
+      
+      <h3>Celsius to Fahrenheit</h3>
+      <h5 class="w3-text-brown">
+        <label> Celsius </label>
+        <input id="inputCelsius" type="number" 
+        oninput="temperatureConverter1(this.value)" 
+        onchange="temperatureConverter1(this.value)">
+      </h5>
+      <h5> <b>Fahrenheit:</b> <span id="outputFahrenheitResult"></span></h5>
+      
+      <h3>&nbsp;</h3>
+      
+      <h3>Feet to Meters</h3>
+      <h5 class="w3-text-brown">
+        <label> Feet </label>
+        <input id="inputFeet" type="number" 
+        oninput="LengthConvert1(this.value)" 
+        onchange="LengthConvert1(this.value)">
+      </h5>
+      <h5> <b>Meters:</b> <span id="outputMetersResult"></span></h5>
+
+      <h3>&nbsp;</h3>
+      
+      <h3>Meters to Feet:</h3>
+      <h5 class="w3-text-brown">
+       <label> Meters </label>
+       <input id="inputMeters" type="number" 
+       oninput="LengthConverter1(this.value)" 
+       onchange="LengthConverter1(this.value)">
+      </h5>
+      <h5> <b>Feet:</b> <span id="outputFeetResult"></span></h5>
+
+
+     </div>
+  </div>
+</div>
+
+<!-- Income Tax Calculator Page -->
+<div class="w3-row-padding w3-pale-brown w3-padding-64 w3-container" id="itcalc">
+  <div class="w3-content"> 
+    <div class="w3-third w3-left-align">
+      <i class="fa w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+      <div class="w3-twothird" >
+        <h1>&nbsp;</h1> 
+        <h1>&nbsp;</h1> 
+        <h1>&nbsp;</h1>
+        <h1> <b>INCOME TAX CALCULATOR</b> </h1>
+        <h5>
+        <div class="inner-content">
+          <div class="compute">
+            <input type="number" name="taxable" id="taxable">
+            <button onclick="compute()">Compute </button>
+          </div>
+
+          <h3>&nbsp;</h3>
+          <h3>
+          <div class="result">
+            <label > <b>Result:</b> </label>
+            <p class="textRes" id="text-result"></p>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+            <h1>&nbsp;</h1>
+            
+          </div>
+        </h3>
+        </div>
+      </h5>
+    </div>
+  </div>
+
+</div>
+
+<!-- Factorial, Sum, and Average of First N Natural Numbers -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container" id="fact">
+  <div class="w3-content"> 
+    <div class="w3-third w3-left-align">
+      <i class="fa w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <div class="w3-twothird">
+      <h1>&nbsp;</h1>
+      <h1> <b>NTH TERM</b> </h1>
+      <!-- factorial of N -->
+        <h3>Factorial of N Numbers</h3>
+        <p>
+          <label>Value of n</label>
+          <input id= "num">
+          <button onclick="factorial()">Calculate</button>
+         <h5>
+          The factorial of N is:
+          <br> <b> <span id="fact"></span> </b>
+        </h5>
+        </p>
+ 
+      <h3>&nbsp;</h3>
+
+        <!-- sum of N -->    
+        <h3>Sum of the First N Numbers</h3>
+        <p>
+          <label>Value of n</label>
+          <input id="num1"> 
+          <button onclick="sumMo()">Calculate</button>
+        </p>
+        <h5>The sum is:
+          <br> <b> <span id="sum"></span> </b>
+        </h5> 
+      
+      <h3>&nbsp;</h3>
+  
+     <!-- average of N -->
+      <h3>Average of the First N Numbers</h3>
+      <p>
+        <label>Value of n</label>
+        <input id="num2">
+        <button onclick="averageN()">Calculate</button> 
+        </p>
+        <h5>The average is:
+          <br> <b> <span id="sum2"></span> </b>
+      </h5>
+    </div>
+  
+    <h1>&nbsp;</h1>
+    <h1>&nbsp;</h1>
+
+  </body>
+  </div>
+
+</div>
+
+<!-- Simple Payroll Page -->
+<div class="w3-row-padding w3-brown w3-padding-64 w3-container" id="payroll">
+  <div class="w3-content">
+    <div class="w3-third w3-left-align">
+      <i class="fa w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+    <h1>&nbsp;</h1>
+    <div class="w3-twothird">
+      <h1> <b>PAYROLL</b> </h1>
+      <h5 class="w3-padding-32">
+        <body onload = "initializecart()">
+
+          <h4>
+            <label for="itemdesc">Employee Name:</label> &nbsp;
+            <input id="itemdesc" name="itemdesc"></input>
+          </h4>
+            <h5>&nbsp;</h5>
+            <label for="qty">Days Worked:</label> &nbsp;
+            <input id="qty" name="qty" type="number" oninput="computeamount()"></input>
+            <br>
+            <label for="price">Daily Rate:</label> &nbsp; &nbsp; &nbsp;
+            <input id="price" name="price" type="number" oninput="computeamount()"></input>
+            <h6>&nbsp;</h6>
+            <label for="amount">Deduction Amount:</label> &nbsp;
+            <input id="amount" name="amount" type="number" oninput="computeamount()"></input>
+            <br>            
+            <button onclick="addtocart()">Compute</button>
+            
+            <h6>&nbsp;</h6>
+
+            <label for="items">No. of Employee/s:</label> &nbsp;
+            <input id="items" name="items" type="number" readonly></input>
+            <br>
+            <button onclick="clearcart()">Clear Cart</button>
+            <!--   <button onclick="showcart()">Show Cart</button> --> 
+            <h6>&nbsp;</h6>
+            <label for="delitem">Delete Employee:</label>
+            <input id="delitem" name="delitem" type="number" ></input>
+            <br>
+            <button onclick="deleteitem()" >Delete</button>  
+            
+            
+            <p id="cart"></p>
+              <h1>&nbsp;</h1>
+        </body>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// FAHRENHEIT TO CELSIUS
+function temperatureConvert1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputCelsiusResult").innerHTML = (valNum-32) / 1.8;
+}
+  
+// CELSIUS TO FAHRENHEIT
+  function temperatureConverter1(valNum) {
+    valNum = parseFloat(valNum);
+    document.getElementById("outputFahrenheitResult").innerHTML=(valNum*1.8)+32;
+}
+  
+// FEET TO METERS
+function LengthConvert1(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputMetersResult").innerHTML=valNum/3.2808;
+}
+  
+// METERS TO FEET
+function LengthConverter1(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputFeetResult").innerHTML=valNum*3.2808;
+}
+
+// INCOME TAX CALCULATOR
+  const number = document.getElementById("taxable")
+    const result = document.getElementById("text-result")
+
+    function compute(){
+      const x = number.value
+      let excess, rate, fixed 
+
+      if(x <= 250000){
+        excess = 0
+        rate = 0
+        fixed = 0
+      }else if (x <= 400000){
+        excess = 250000
+        rate = 0.20
+        fixed = 0
+      }else if(x <= 800000){
+        excess = 400000
+        rate = 0.25
+        fixed = 30000 
+      }else if(x <= 2000000){
+        excess = 800000
+        rate = 0.30
+        fixed = 130000
+      }else if(x <= 8000000){
+        excess = 2000000
+        rate = 0.32
+        fixed = 490000
+      } else{
+        excess = 8000000
+        rate = 0.35
+        fixed = 2410000
+      }
+      const incomeTax = (x - excess)*rate + fixed
+      result.innerHTML = 'The income tax is '+ incomeTax
+    }
+
+// NTH FACTORIAL
+  function factorial()
+  {
+  var n = document.getElementById("num").value;
+  var i=1, f=1; 
+  while(n>=i){
+    f *= i;
+    i++
+  }
+  document.getElementById("fact").innerHTML = f;
+  }
+
+  function sumMo()
+  {
+  var n = document.getElementById("num1").value;
+  var i=1, f=0;
+  do{
+    f += i;
+    i++
+  } while(n >= i)
+  document.getElementById("sum").innerHTML = f;
+  }
+
+  function averageN()
+  {
+    var x = document.getElementById("num2").value;
+      let nth = 0;
+
+      for(let i = 1; i < x; i++){
+        nth += i;
+      }
+      let sum2 = nth/x
+      document.getElementById("sum2").innerHTML = sum2;
+  }
+
+// SIMPLE PAYROLL
+  function initcart(){
+      cart=[];
+      document.getElementById("items").value=cart.length;
+      document.getElementById("cart").innerHTML="";        
+  }
+
+  function clearcart(){
+    var toclear;
+            
+      toclear=confirm("Delete all item(s) from cart ?");
+            
+      if (toclear) {
+        initcart();
+      }                  
+  }
+
+  function addtocart(){       
+    var cartitem = {
+      "item": "1",
+      "price": 0,
+      "qty": 1,
+      "amount": 0,
+      "itemamount" : function itemamount(){
+        return Math.round(this.price*this.qty*100)/100;  
+        },
+        "netpay" : function netpay(){
+          return Math.round(this.price*this.qty*100)/100-this.amount;  
+        }           
+    };
+                        
+      cartitem.item=document.getElementById("itemdesc").value; 
+      cartitem.qty=document.getElementById("qty").value;
+      cartitem.price=document.getElementById("price").value;
+      cartitem.amount=document.getElementById("amount").value;
+                     
+            
+      console.log(cartitem.item);
+      console.log(cartitem.qty);
+      console.log(cartitem.price);
+      console.log(cartitem.amount);
+                     
+      cart.push(cartitem);
+
+      console.log(cart.length);
+      document.getElementById("items").value=cart.length;
+            
+    showcart();       
+  }
+                
+  function deleteitem(){
+    var todelete;
+    var itemno;
+            
+    itemno=document.getElementById("delitem").value;
+            
+    todelete=confirm("Delete item no. "+itemno+"?");
+            
+    if (todelete) {
+            
+        cart.splice(itemno-1,1);
+        document.getElementById("items").value=cart.length;
+        showcart();   
+    }    
+  }
+            
+  function showcart(){
+    var i,l,carttext,totalamount,ln;
+    var theader,tbody,tb,tfooter;
+            
+      theader ="<thead>";
+      theader+="<tr>";
+      theader+="<th>No.</th>";
+      theader+='<th style="text-align:left" >Employee Name</th>';
+      theader+="<th>Days Worked</th>";
+      theader+='<th style="text-align:right">Daily Rate</th>';
+      theader+="<th>Gross Pay</th>";
+      theader+="<th>Deduction Amount</th>";
+      theader+="<th>Net Pay</th>";
+      theader+="</tr>";
+      theader+="</thead>";
+                    
+
+      l = cart.length;
+                  
+      for (i=0,totalamount=0,carttext="",tbody='';i<l;i++) {
+        ln=i+1;
+        tbody += "<tr>"
+          +'<td>'+ln+' </td>'
+          +'<td>'+cart[i].item+' </td>'
+          +'<td style="text-align:right">'+cart[i].qty+'</td>'
+          +'<td style="text-align:right">'+cart[i].price+'</td>'
+          +'<td style="text-align:right">'+cart[i].itemamount()+'</td>'  
+          +'<td style="text-align:right">'+cart[i].amount+'</td>'  
+          +'<td style="text-align:right">'+cart[i].netpay()+'</td>' 		
+          +"</tr>";
+      }
+            
+        tfooter ="<tfoot>";
+        tfooter+="<tr>";
+        tfooter+='<th></th>';
+        tfooter+='<th style="text-align:left"></th>';
+        tfooter+='<th></th>';
+        tfooter+='<th></th>';
+        tfooter+='<th></th>';
+        tfooter+='<th></th>';
+        tfooter+='<th></th>';
+        tfooter+="</tr>";
+        tfooter+="</tfoot>";
+            
+        console.log(theader+tbody+tfooter);
+          document.getElementById("cart").innerHTML=
+            '<table>'+theader+tbody+tfooter+'</table>';
+      }
+
+    var cart = [];
+
+</script>
+</body>
+</html>
